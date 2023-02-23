@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#223249"
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓦𝓪𝓽𝓮𝓻"
+        android:textColor="@color/teal_200"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imgAnhNhay"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon1"></ImageView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    </LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/profile"
+        android:gravity="center"
+        android:onClick="dangnhap"
+        android:padding="5dp"
+        android:textColor="#E0DFDF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/play"
+        android:gravity="center"
+        android:onClick="choingay"
+        android:padding="5dp"
+        android:textColor="#E0DFDF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/cancel"
+        android:gravity="center"
+        android:onClick="thoat"
+        android:padding="5dp"
+        android:textColor="#E0DFDF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
+</LinearLayout>
